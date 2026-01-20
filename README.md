@@ -9,7 +9,7 @@ Lock-Free High Throughput Trading Engine built with .NET and C++.
 - Dockerized for easy deployment
 
 ## Architecture
-See docs/architecture.md for diagrams.
+TODO
 
 ## Running
 1. Build engine via CMake
