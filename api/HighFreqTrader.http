@@ -1,0 +1,6 @@
+@HighFreqTrader_HostAddress = http://localhost:5183
+
+GET {{HighFreqTrader_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

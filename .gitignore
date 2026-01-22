@@ -1,41 +1,106 @@
-# Prerequisites
-*.d
+# General OS-specific files
+.DS_Store
+Thumbs.db
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.vcxproj.user
+*.VC.db
+*.VC.opendb
+
+# CMake build directories
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# C++ compiled files
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
+*.o
+*.lo
 *.la
 *.a
 *.lib
-
-# Executables
+*.so
+*.dylib
+*.dll
 *.exe
 *.out
 *.app
 
-# debug information files
-*.dwo
+# C++ debugging files
+*.pdb
+*.ilk
+*.idb
+
+# C++ generated files
+*.gen.cpp
+*.gen.h
+
+# C# build artifacts
+bin/
+obj/
+*.pdb
+*.exe
+*.dll
+*.cache
+*.log
+
+# NuGet packages
+*.nupkg
+packages/
+project.lock.json
+*.nuget.props
+*.nuget.targets
+
+# Rider/JetBrains files
+.idea/
+*.sln.iml
+
+# Visual Studio Code files
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Coverage and test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage.opencover.xml
+coverage.cobertura.xml
+
+# Python virtual environments and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+
+# Python build artifacts
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Node.js dependencies (if applicable)
+node_modules/
+
+# Vcpkg artifacts
+vcpkg_installed/
+vcpkg/buildtrees/
+vcpkg/downloads/
+vcpkg/packages/
+
+# Generated documentation
+docs/generated/
